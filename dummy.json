@@ -1,0 +1,64 @@
+{
+    "body": {
+        "hits":{
+            "hits": [
+                {
+                    "_id": "73302505",
+                    "_index": "us_search_v3",
+                    "_score": 6.9777284,
+                    "sort": [
+                        "registered",
+                        6.9777284,
+                        1698105600000
+                    ],
+                    "_source": {
+                        "registration_number": "1243248",
+                        "registration_date": 425001600,
+                        "filing_date": 354153600,
+                        "status_date": 1698105600,
+                        "renewal_date": 740620800,
+                        "date_type": "renewal_10y_period",
+                        "status_code": 800,
+                        "status_type": "registered",
+                        "search_bar": {
+                            "attorneys": "Jennifer Martin Reynolds",
+                            "law_firm": "Jennifer Martin Reynolds",
+                            "mark_identification": "NIKE",
+                            "owner": "Nike, Inc."
+                        },
+                        "starting_letter": {
+                            "attorney": "J",
+                            "law_firm": "J",
+                            "mark_name": "N",
+                            "owner": "N"
+                        },
+                        "mark_identification": "NIKE",
+                        "law_firm": "Jennifer Martin Reynolds",
+                        "law_firm_cleaned": "jennifer martin reynolds",
+                        "attorney_name": "Jennifer Martin Reynolds",
+                        "attorney_name_cleaned": "jennifer martin reynolds",
+                        "current_owner": "Nike, Inc.",
+                        "current_owner_cleaned": "nike inc",
+                        "mark_description_code": [
+                            "GS0421"
+                        ],
+                        "mark_description_description": [
+                            "Retail Footwear and Apparel Store Services"
+                        ],
+                        "first_use_anywhere_date": 19720200,
+                        "class_codes": [
+                            "042"
+                        ],
+                        "country": "",
+                        "owner_location": {
+                            "lat": 45.23105,
+                            "lon": -122.755036
+                        },
+                        "mark_status_key": 80,
+                        "is_lrapc": false
+                    }
+                }
+            ]
+        }
+    }
+}

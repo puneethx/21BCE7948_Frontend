@@ -1,0 +1,144 @@
+{
+    "body": {
+        "aggregations": {
+            "attorneys": {
+                "buckets": [
+                    {
+                        "doc_count": 47,
+                        "key": "jennifer martin reynolds"
+                    },
+                    {
+                        "doc_count": 31,
+                        "key": "kathy j mcknight"
+                    },
+                    {
+                        "doc_count": 22,
+                        "key": "jaime m lemons"
+                    },
+                    {
+                        "doc_count": 5,
+                        "key": "kenneth m kwartler esq"
+                    },
+                    {
+                        "doc_count": 4,
+                        "key": "jennifer m reynolds"
+                    },
+                    {
+                        "doc_count": 4,
+                        "key": "joseph j quigley"
+                    },
+                    {
+                        "doc_count": 4,
+                        "key": "lawrence m jarvis"
+                    },
+                    {
+                        "doc_count": 2,
+                        "key": "jaime m lemons stephanie j vardavas"
+                    },
+                    {
+                        "doc_count": 2,
+                        "key": "jaime m schwartz"
+                    },
+                    {
+                        "doc_count": 2,
+                        "key": "joseph quigley"
+                    }
+                ],
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 20
+            },
+            "current_owners": {
+                "buckets": [
+                    {
+                        "doc_count": 122,
+                        "key": "nike inc"
+                    },
+                    {
+                        "doc_count": 7,
+                        "key": "brs inc"
+                    },
+                    {
+                        "doc_count": 4,
+                        "key": "nike securities lp"
+                    },
+                    {
+                        "doc_count": 2,
+                        "key": "adar import and distributing corporation"
+                    },
+                    {
+                        "doc_count": 1,
+                        "key": "better packages incorporated"
+                    },
+                    {
+                        "doc_count": 1,
+                        "key": "campomar s l"
+                    },
+                    {
+                        "doc_count": 1,
+                        "key": "campomar sl"
+                    },
+                    {
+                        "doc_count": 1,
+                        "key": "campomar sociedad limitada"
+                    },
+                    {
+                        "doc_count": 1,
+                        "key": "cho dongho"
+                    },
+                    {
+                        "doc_count": 1,
+                        "key": "conrad landry"
+                    }
+                ],
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 18
+            },
+            "law_firms": {
+                "buckets": [
+                    {
+                        "doc_count": 46,
+                        "key": "jennifer martin reynolds"
+                    },
+                    {
+                        "doc_count": 22,
+                        "key": "jaime m lemons"
+                    },
+                    {
+                        "doc_count": 15,
+                        "key": "kathy j mcknight"
+                    },
+                    {
+                        "doc_count": 14,
+                        "key": "banner birch mckie  beckett"
+                    },
+                    {
+                        "doc_count": 7,
+                        "key": "nike inc"
+                    },
+                    {
+                        "doc_count": 6,
+                        "key": "kenneth m kwartler esq"
+                    },
+                    {
+                        "doc_count": 5,
+                        "key": "joseph j quigley"
+                    },
+                    {
+                        "doc_count": 4,
+                        "key": "mcandrews held  malloy ltd"
+                    },
+                    {
+                        "doc_count": 3,
+                        "key": ""
+                    },
+                    {
+                        "doc_count": 2,
+                        "key": "banneer birch mckie  beckett"
+                    }
+                ],
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 35
+            }
+        }
+    }
+}
