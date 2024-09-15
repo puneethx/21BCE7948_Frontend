@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trademarkia Search Application
 
-## Getting Started
+This **Next.js** application provides a user-friendly interface searching and filtering trademark information using a custom API. The application provides filtering options and displays the results in either list or grid view.
 
-First, run the development server:
+## Features
+
+- **Search Functionality**: Input a search query to find trademarks.
+- **Status Filtering**: Trademarks can be filtered by their current status (Registered, Pending, Abandoned, Others).
+- **Advanced Filtering**: Additional filters for Owners, Law Firms, and Attorneys.
+- **Pagination**: Navigate through the search results.
+- **Switch View Mode**: Choose between list or grid view to display search results.
+
+## Technologies Used
+
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Axios**: For making API requests to the backend.
+- **CSS Modules**: For scoped and reusable CSS, ensuring styling does not leak.
+- **Images**: Integrated with Next.js `Image` component for optimized image handling.
+
+## Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/
+│   ├── images/             # Folder for images
+│   ├── layout.js           # Defines layout and structure
+│   ├── global.css          # Global styles
+│   ├── page.js             # Main application logic and rendering
+│   └── page.module.css     # CSS module for scoped styles
+├── package.json            # Project dependencies and scripts
+└── README.md               # This file
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Enter a trademark in the search bar and hit **Search**.
+- Use the filter tabs to filter by **Owners**, **Law Firms**, or **Attorneys**.
+- Switch between **List** and **Grid** view for displaying results.
+- Pagination allows you to navigate between multiple pages of results.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# API Integration
 
-## Learn More
+The application interacts with the **Trademarkia** API for fetching trademark data. The search queries and filter options are sent via **POST** requests, and results are displayed dynamically. 
 
-To learn more about Next.js, take a look at the following resources:
+``` https://vit-tm-task.api.trademarkia.app/api/v3/us ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
