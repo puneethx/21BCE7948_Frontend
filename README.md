@@ -45,7 +45,8 @@ The application interacts with the **Trademarkia** API for fetching trademark da
 ``` https://vit-tm-task.api.trademarkia.app/api/v3/us ```
 
 ## Project Snapshots
-![trademarkia1](https://github.com/user-attachments/assets/46a19be7-1985-48ca-beb9-00c3d5a73111)
-![trademarkia2](https://github.com/user-attachments/assets/dbad166a-462c-4ca7-bcd0-a867f4f086cc)
-
+![trademarkia3](https://github.com/user-attachments/assets/8a9de59e-e16c-4686-8d4d-0e6bd4c6b88c)
+![trademarkia4](https://github.com/user-attachments/assets/090a9339-471e-4fb1-b62a-609c2aedbd2e)
+![trademarkia5](https://github.com/user-attachments/assets/6dc15cd5-6f3b-467e-935a-9ced843e4bc6)
+![trademarkia7](https://github.com/user-attachments/assets/27caa38f-a0f0-4cb9-8b68-9f1e992d45d0)
 
