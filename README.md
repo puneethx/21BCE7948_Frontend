@@ -1,13 +1,13 @@
 # Trademarkia Search Application
 
-This **Next.js** application provides a user-friendly interface searching and filtering trademark information using a custom API. The application provides filtering options and displays the results in either list or grid view.
+This **Next.js** application provides a seamless interface for searching and filtering trademark data through a custom API. It allows users to refine their search with various filters and choose between different display views for the results.
 
-## Features
+## Key Features
 
-- **Search Functionality**: Input a search query to find trademarks.
-- **Status Filtering**: Trademarks can be filtered by their current status (Registered, Pending, Abandoned, Others).
+- **Search Functionality**: Input a query to search for trademarks easily.
+- **Status Filters**: Filter trademarks based on their current status (Registered, Pending, Abandoned, or Others).
 - **Advanced Filtering**: Additional filters for Owners, Law Firms, and Attorneys.
-- **Pagination**: Navigate through the search results.
+- **Pagination**: Navigate through multiple pages of search results.
 - **Switch View Mode**: Choose between list or grid view to display search results.
 
 ## Technologies Used
@@ -31,11 +31,11 @@ src/
 └── README.md               # This file
 ```
 
-## Usage
+## How to Use
 
-- Enter a trademark in the search bar and hit **Search**.
+- Enter a trademark in the search bar and click **Search**.
 - Use the filter tabs to filter by **Owners**, **Law Firms**, or **Attorneys**.
-- Switch between **List** and **Grid** view for displaying results.
+- Toggle between **List** and **Grid** view for displaying results.
 - Pagination allows you to navigate between multiple pages of results.
 
 # API Integration
