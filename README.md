@@ -48,5 +48,7 @@ The application interacts with the **Trademarkia** API for fetching trademark da
 ![trademarkia3](https://github.com/user-attachments/assets/8a9de59e-e16c-4686-8d4d-0e6bd4c6b88c)
 ![trademarkia4](https://github.com/user-attachments/assets/090a9339-471e-4fb1-b62a-609c2aedbd2e)
 ![trademarkia5](https://github.com/user-attachments/assets/6dc15cd5-6f3b-467e-935a-9ced843e4bc6)
+
+## Custom Filter
 ![trademarkia7](https://github.com/user-attachments/assets/27caa38f-a0f0-4cb9-8b68-9f1e992d45d0)
 
